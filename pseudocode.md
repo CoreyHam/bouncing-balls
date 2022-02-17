@@ -67,3 +67,27 @@ SET function draw to
     use "arc" from context to draw a circle by starting centered from the ball object's x and y position, make the radius of the arc equal to the ball object's size, start the arc at angle 0 then use pi to calculate the diamater of the circle
     run "fill" from context
 ```
+
+## Updating the ball's data
+
+```
+update
+    if the the ball is going off the right edge
+        reverse the ball's x velocity
+    
+     
+    if the the ball is going off the left edge
+        reverse the ball's x velocity
+    
+     
+    if the the ball is going off the bottom edge
+        reverse the ball's y velocity
+     
+    if the the ball is going off the top edge
+        reverse the ball's y velocity
+     
+    have the ball's x position increase by its x velocity
+    have the ball's y position increase by its y velocity
+```
+
+## Animate the ball
