@@ -62,9 +62,8 @@ SET class Ball to
 
 ```
 SET function draw to
-    call "beginPath" from context
+    run "beginPath" from context
     set "fillStyle" from context to equal the Ball's set color
-  ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
-  ctx.fill();
-
+    use "arc" from context to draw a circle by starting centered from the ball object's x and y position, make the radius of the arc equal to the ball object's size, start the arc at angle 0 then use pi to calculate the diamater of the circle
+    run "fill" from context
 ```
