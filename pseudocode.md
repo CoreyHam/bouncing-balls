@@ -90,7 +90,7 @@ update
     have the ball's y position increase by its y velocity
 ```
 
-## Animate the ball
+# Animate the ball
 
 ```
 create balls array
@@ -106,3 +106,17 @@ while balls in ball array < 25
         size
     push ball to end of array
 ```
+
+```
+create loop function
+    set canvas color to rgba value
+    draw rectangle of set color across canvas
+ 
+    for every ball in ball array
+        draw the ball
+        update the ball
+    }
+ 
+    Update animation's frame
+```
+
