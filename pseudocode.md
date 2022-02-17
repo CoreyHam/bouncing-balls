@@ -90,7 +90,7 @@ update
     have the ball's y position increase by its y velocity
 ```
 
-# Animate the ball
+# 3. Animate the ball
 
 ```
 create balls array
@@ -120,3 +120,22 @@ create loop function
     Update animation's frame
 ```
 
+# 4. Collision Detection
+
+```
+create collision detection function
+        for every ball of ball array
+        Every ball that isnt this current ball
+                compare ball x distance from currnet ball
+                compare ball y distance from current ball
+                set a new variable distance to store distance between balls
+    
+                if distance < the size of this ball and other ball
+                    change ball color
+                }
+            }
+        }
+    }
+```
+
+### Add colision detectioin function to loop funtion
