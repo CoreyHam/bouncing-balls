@@ -91,3 +91,18 @@ update
 ```
 
 ## Animate the ball
+
+```
+create balls array
+
+while balls in ball array < 25
+    set ball size to a random number from 10 to 20
+    add a new Ball
+        set x position to a random number within screed width
+        set y position to a randon number within screen height
+        set x velocity to a random number between -7 and 7
+        set y velocity to a random number between -7 and 7
+        set color to random color
+        size
+    push ball to end of array
+```
